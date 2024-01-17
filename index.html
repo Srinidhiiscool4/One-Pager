@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #d4a373;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #faedcd;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #9c6644;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #fefae0;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #d4a373;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #faedcd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #d4a373;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #d4a373;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #faedcd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #faedcd;
+  margin-top: 20px;
+}
+
+h2, h3 {
+color: #9c6644;
+}
+
+p {
+color: #656d4a;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>WHS Book Club</h1>
+    <p>"The books you like show your personality."</p>
+</div>
+<div class="topnav">
+    <a href="join.html">Joining</a>
+    <a href="collections.html">Collections</a>
+  </div>
+  
+  </div>
+  
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>Meeting Locations</h2>
+        <h5>Walpole Public High School:</h5>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.6376347497176!2d-71.25036225866859!3d42.13664017133436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e380f0887a24f1%3A0x5bd9ccff885069ec!2sWalpole%20High%20School!5e0!3m2!1sen!2sus!4v1697727585480!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="card">
+     
+        <h5>Walpole Public Library:</h5>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2958.3218508246982!2d-71.25417212390184!3d42.143399021213824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e47c3aeb14c5f3%3A0x8220af997a4683b5!2s979%20Main%20St%2C%20Walpole%2C%20MA%2002081!5e0!3m2!1sen!2sus!4v1700073212193!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>About Us</h2>
+        <p> We believe in the power of book club to enhance the reading experience, support lifelong learning, and build community.</p>
+      </div>
+      <div class="card">
+        <h3>Popular Books</h3>
+        <div class="fakeimg"><p><b>What Wild Women Do</b></p> -Karma Brown</p>
+        <br><img src= "images/wild.png"></div>
+        <div class="fakeimg"><p><b>Red Winter</b></p>-Tom Clacy</p>
+          <br><img src= "images/winter.png"></div>
+        <div class="fakeimg"><p><b>Fellow Traveler</b></p>-Thomas Mallon</p>
+          <br><img src= "images/fellow.png"></div>
+    </h3>
+  
+   
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="footer">
+         
+      <h5>Phone 346-725-6972 | Fax 587-938-2316</h5>
+      <h6>Follow us on</h6>
+        <h6>@WHS_BookClub3</h6>
+    
+      <img src="images/twitter.svg.png" alt="twitter" width="40" height="40"> <img src="images/Facebook_icon_2013.svg.png" alt="facebook" width="40" height="40"> <img
+     
+     <footer>&copy; 2023 P5 Web Design</h6></footer>
+  </div>
+  
+  </body>
+  </html>
